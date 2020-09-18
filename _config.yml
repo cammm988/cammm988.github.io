@@ -8,19 +8,17 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: 초코파이냠냠                          # the main title
 
-tagline: Personal Blog.  # it will display as the sub-title
+tagline: Personal Blog  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  개인 블로그
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'https://cammm988.github.io'
 
-author: your_full_name                  # change to your full name
+author: Chanyoung Lee                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
@@ -36,10 +34,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/cammm988       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/cammm988
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
