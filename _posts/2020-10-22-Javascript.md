@@ -1,7 +1,7 @@
 ---
 title: 
 author: Chanyoung Lee
-date: yyyy-mm-dd 11:33:00 +0800
+date: 2020-10-22 11:33:00 +0800
 categories: [큰 범주, 작은 범주]
 tags: []
 math: true
@@ -33,4 +33,24 @@ if(!NAN) {
     alert('NaN');
 }
 이럴 경우 false라서 실행이 되지 않는다. 
+```
+
+## 함수의 또 다른 정의
+```javascript
+numbering = function() {
+    var a = 3;
+}
+
+function numbering() {
+    var a = 3;
+}
+
+위의 두 개는 동일
+```
+## 익명함수
+```javascript
+(function() {
+    var i = 3;
+    return i;
+})() //익명함수, 바로 실행시켜준다.
 ```
