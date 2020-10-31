@@ -162,6 +162,19 @@ function factory(title) {
 
 ## 함수 호출
 ```javascript
+p1 = {val1 : 3, val2 :6, val3: 4, sum:sum}
 
+function sum() {
+    var _sum = 0
+    for (name in this) {
+        if (typeof (name) == 'function')
+            break;
+        _sum += this[name]
+    }
+    return _sum;
+}
+alert(p1.sum());
+alert(sum.apply(null, p1));
 
 ```
+
