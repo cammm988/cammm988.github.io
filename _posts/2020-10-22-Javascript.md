@@ -2,7 +2,7 @@
 title: 
 author: Chanyoung Lee
 date: 2020-10-22 11:33:00 +0800
-categories: [큰 범주, 작은 범주]
+categories: [Self-Study, Javascript]
 tags: []
 math: true
 image: 
